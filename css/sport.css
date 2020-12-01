@@ -1,0 +1,45 @@
+body{
+	background-color: rgb(220,0,200);
+	font-size: 14px
+	font weight: 250;
+	font-family: 'Roboto', sans-serif;
+}
+*, *::before, *::after{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+img{
+	max-width: 90%;
+
+}
+header{
+	text-align: center;
+	font-size: 3rem;
+}
+main{
+	line-height: 2rem;
+	font-size: 1.5rem;
+	padding: .7rem 1rem;
+}
+.elrendezés{
+	height: 30rem;
+	margin-left: 28rem;
+	margin-top: 2rem;
+}
+body{
+	display: grid;
+	grid-template-areas: 
+	"fejléc"
+	"kontent"
+	"lablec";
+	grid-template-rows: max-content 1fr max-content;
+	min-height: 110vh;
+}
+.div_kepek{
+
+	display: grid;
+	grid-template: 1fr, 1fr, 1fr;
+
+
+}
